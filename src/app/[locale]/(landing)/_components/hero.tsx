@@ -37,7 +37,7 @@ const Hero: React.FC<HeroProps> = ({
   // Extract data with proper fallbacks
   const totalArea = demographicData?.areaSqKm
     ? parseFloat(demographicData.areaSqKm)
-    : 124.38;
+    : 101.91;
 
   // Get ward count data for Khajura Rural Municipality
   const wardCount = 8;
@@ -142,9 +142,11 @@ const Hero: React.FC<HeroProps> = ({
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               बाँके जिल्ला, लुम्बिनी प्रदेश
-              <div className="text-sm block"> हामी आफैँ बनाउँ हाम्रो खजुरा, आत्मनिर्भर र समृद्ध खजुरा</div>
+              <div className="text-sm block">
+                {" "}
+                हामी आफैँ बनाउँ हाम्रो खजुरा, आत्मनिर्भर र समृद्ध खजुरा
+              </div>
             </motion.div>
-          
 
             {/* Key Metrics Cards with enhanced contrast */}
             <motion.div
