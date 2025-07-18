@@ -39,7 +39,7 @@ const HistoryTimeline = () => {
       icon: Building,
       color: "from-emerald-500 to-green-600",
       stats: [
-        { label: "Area Coverage", value: "124.38 km²" },
+        { label: "Area Coverage", value: "101.91 km²" },
         { label: "Initial Wards", value: "5" },
       ],
     },

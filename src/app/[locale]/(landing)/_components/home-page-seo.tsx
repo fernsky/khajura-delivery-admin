@@ -32,7 +32,7 @@ export default function HomePageSEO({
   // Extract data with fallbacks for structured data
   const totalPopulation = demographicData?.totalPopulation || 0;
   const totalHouseholds = demographicData?.totalHouseholds || 0;
-  const areaSqKm = demographicData?.areaSqKm || "124.38";
+  const areaSqKm = demographicData?.areaSqKm || "101.91";
   const malePopulation = demographicData?.populationMale || 0;
   const femalePopulation = demographicData?.populationFemale || 0;
   const absenteePopulation = demographicData?.populationAbsenteeTotal || 0;

@@ -49,7 +49,7 @@ const Statistics = ({
   const stats = [
     {
       label: "कुल क्षेत्रफल",
-      value: demographicData?.areaSqKm || 124.38,
+      value: demographicData?.areaSqKm || 101.91,
       suffix: "वर्ग कि.मि.",
       icon: <MapPinned className="w-5 h-5" />,
       description: "कुल भूमि क्षेत्रफल",
@@ -175,8 +175,6 @@ const Statistics = ({
         itemScope
         itemType="https://schema.org/Dataset"
       >
-    
-
         <div className="py-16 relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
